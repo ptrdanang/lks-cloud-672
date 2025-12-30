@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beranda | LKS Cloud Computing 2026</title>
+    <title>Beranda | LKS CLoud Computing 2026</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
 </head>
@@ -14,7 +14,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html" class="active">Beranda</a></li>
-                    <li><a href="about.html">Identitas Peserta</a></li>
+                    <li><a href="about.html">Identitas Perserta</a></li>
                 </ul>
             </nav>
         </div>
@@ -25,9 +25,9 @@
             <div class="container">
                 <h2>Selamat Datang di Portal Deployment Cloud</h2>
                 <p class="description">
-                    Aplikasi web statis sederhana ini dikembangkan sebagai tugas Lomba Kompetensi Siswa (LKS) SMK bidang Cloud Computing tahun 2026. Proyek ini mendemonstrasikan proses deployment otomatis dari GitHub ke layanan Cloud.
+                    Aplikasi web statis sederhana ini dikembangkan sebagai tugas Lomba Kompetensi Siswa (LKS) SMK bidang Cloud Computing tahun 2026. Proyek ini mendemostrasikan proses deployment otomatis dari GitHub ke layanan Cloud (Vercel/Netlify).
                 </p>
-                <a href="#fitur" class="button">Pelajari Lebih Lanjut</a>
+            <a href="#fitur" class="button">Pelajari Lebih Lanjut</a>
             </div>
         </section>
 
@@ -37,27 +37,27 @@
                     <div class="intro-text">
                         <h3>Apa Itu Cloud Computing</h3>
                         <p>
-                            <strong>Cloud Computing</strong> atau Komputasi Awan adalah teknologi yang menjadikan internet sebagai pusat pengelolaan data dan aplikasi. Pengguna diberikan hak akses untuk mengelola sumber daya server tanpa harus memiliki infrastruktur fisik sendiri.
+                            <strong>Cloud Computing</strong> atau Komputasi Awan adalah teknologi yang menjadikan internet sebagai pusat pengelolaan data dan aplikasi. Pengguna diberikan hak akses untuk mengelola sumber daya server, penyimpanan, dan perangkat lunak secara virtual tanpa harus memiliki infastruktur fisik sendiri. Hal ini memungkinkna efisiensi biaya, aksesibilitas tinggi, dan kemudahan pengembangan aplikasi berskala besar. 
                         </p>
                     </div>
                 </div>
 
-                <div class="model-layanan-wrapper">
-                    <h3>Model Layanan Cloud</h3>
-                    <p class="text-center">Cloud Computing umumnya dibagi menjadi tiga model layanan utama:</p>
+                <div class="model-layanan-wrapper" style="margin-top: 50px;">
+                    <h3 style="text-align: center;">Model Layanan Cloud</h3>
+                    <p style="text-align: center; margin-bottom: 30px;">CLoud Computing umumnya dibagi menjadi tiga model layanan utama:</p>
 
                     <div class="card-grid">
                         <div class="card">
-                            <h4>IaaS (Infrastruktur)</h4>
-                            <p>Penyedia sumber daya komputasi dasar seperti Virtual Machine (VM), jaringan, dan penyimpanan data.</p>
+                            <h4>Iaas (Infrastruktur)</h4>
+                            <p>Penyedia sumber daya komputasi dasar seperti Vitual Machine (VM), jaringan, dan penyimpanan data.</p>
                         </div>
                         <div class="card">
-                            <h4>PaaS (Platform)</h4>
-                            <p>Menyediakan lingkungan bagi pengembang untuk membangun aplikasi tanpa harus mengurus infrastruktur.</p>
+                            <h4>Paas (Platform)</h4>
+                            <p>Menyediakan lingkungan bagi pengembangan untuk membangun dan mengelola aplikasi tanpa harus mengurus infrastruktur.</p>
                         </div>
                         <div class="card">
-                            <h4>SaaS (Software)</h4>
-                            <p>Aplikasi siap pakai yang dapat diakses langsung oleh pengguna melalui internet atau browser.</p>
+                            <h4>Saas (Software)</h4>
+                            <p>Aplikasi siap pakai yang dapat diakses langsung oleh pengguna melalui internet (browser).</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
         <section class="api-section">
             <div class="container">
                 <h3>Fitur Dinamis (LKS Requirement)</h3>
-                <p>Mengambil Data dari API publik sebagai demonstrasi fungsional JavaScript.</p>
+                <p>Mengambil Data dari API publik sebagai demonstrasi fungsional JavaScrip.</p>
                 <div id="data-api" class="api-result">Loading data dari API...</div>
             </div>
         </section>
@@ -81,20 +81,27 @@
 
     <script>
         console.log("Aplikasi Beranda LKS Cloud Dimuat (index.html).");
+        console.log("Memulai proses fetch data untuk fitur dinamis...");
+
         fetch('https://jsonplaceholder.typicode.com/posts/1')
-        .then(response => response.json())
-        .then(data => {
+        .then(response => {
+            console.log("Data API berhasil diterima. Status:", response.status);
+            return response.json();
+        })
+        .then(data =>{
             const apiDiv = document.getElementById('data-api');
             apiDiv.innerHTML = `
-                <h4>Contoh Data yang Berhasil Diambil:</h4>
-                <strong>Judul:</strong> ${data.title} <br>
-                <strong>Isi:</strong> ${data.body.substring(0, 100)}...
+            <h4>Contoh Data yang Berhasil Diambil:</h4>
+            <strong>Judul:</strong>${data.title} <br>
+            <strong>Isi:</strong>${data.body.substring(0, 100)}...
             `;
         })
-        .catch(error => {
-            console.error("Error API:", error);
-            document.getElementById('data-api').textContent = 'Gagal memuat data API.';
-        });
+        .catch (error => {
+            console.error("Terjadi error saat mengambil data API!", error);
+            document.getElementById('data-api').textContent = 'Gagal mamuat data API.';
+        })
+        
     </script>
+    
 </body>
 </html>
