@@ -11,7 +11,7 @@ Aplikasi ini adalah sebuah website aplikasi statis yang dibangun untuk memenuhi 
 
 ## 📂 Struktur Folder
 Penyusunan file dilakukan secara terorganisir untuk memenuhi standar kualifikasi lomba:
-![Tampilan Struktur Folder]()
+![Tampilan Struktur Folder](assets/t.png)
 
 ## 🚀 Langkah Deployment
 1. **Persiapan Kode**: Pastikan file index.html, about.html, dan style.css sudah siap di folder proyek.
