@@ -37,8 +37,9 @@ Berikut adalah tampilan antarmuka dari web App LKS Cloud Computing 2026:
 
 ## ✍ Kendala dan Sousi
 1. **Navigasi Error**:
+
    **Kendala**: Menu "Identitas Peserta" tidak bisa diklik atau File Not Found.
-   
+
    **Solusi**: Memastikan nama file pada atribut href di HTML sudah sesuai dengan nama file fisik (about.html).
    
 2. **Kendala**: Log Tidak Muncul: Pesan status di konsol browser tidak terlihat
