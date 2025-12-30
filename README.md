@@ -11,6 +11,7 @@ Aplikasi ini adalah sebuah website aplikasi statis yang dibangun untuk memenuhi 
 
 ## 📂 Struktur Folder
 Penyusunan file dilakukan secara terorganisir untuk memenuhi standar kualifikasi lomba:
+
 /lks-cloud-672
 ├── /css
 │   └── style.css
