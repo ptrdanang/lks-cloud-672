@@ -9,6 +9,21 @@ Aplikasi ini adalah sebuah website aplikasi statis yang dibangun untuk memenuhi 
 * **Loggging System**: Pemantauan status aplikasi melalaui browser console.
 * **Responsive Design**: Tampilan yang optimal di berbagai perangkat.
 
+## 📂 Struktur Folder
+Penyusunan file dilakukan secara terorganisir untuk memenuhi standar kualifikasi lomba:
+
+/lks-cloud-672
+├── /css              (Folder khusus stylesheet)
+│   └── style.css     (File desain tampilan utama)
+├── /assets           (Folder khusus media/gambar)
+│   ├── image.png     (Screenshot Beranda)
+│   ├── image-1.png   (Screenshot Fitur API)
+│   └── image-2.png   (Screenshot Halaman About)
+├── index.html        (Halaman utama/beranda aplikasi)
+├── about.html        (Halaman identitas pembuat)
+├── .gitignore        (Keamanan dasar untuk mengecualikan file sensitif)
+└── README.md         (Dokumentasi teknis proyek)
+
 ## 🚀 Langkah Deployment
 1. **Persiapan Kode**: Pastikan file index.html, about.html, dan style.css sudah siap di folder proyek.
 2. **Upload ke GitHub**: Buat repositori baru di GitHub, lalu unggah seluruh file proyek ke dalamnya.
