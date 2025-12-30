@@ -11,8 +11,7 @@ Aplikasi ini adalah sebuah website aplikasi statis yang dibangun untuk memenuhi 
 
 ## 📂 Struktur Folder
 Penyusunan file dilakukan secara terorganisir untuk memenuhi standar kualifikasi lomba:
-
-* **/lks-cloud-672**: Ini adalah folder utama yang berisi folder /css yang berisi file style.css yang berfungsi untuk membuat tampilan website terlihat bagus, folder /assets yang berisi tampilan website. Ada juga 4 file yaitu index.html yang berisi halaman utama website, about.html yang berisi halaman identitas peserta, README.md yang berisi dokumentasi proyek, dan juga file .gitignore yang berfungsi untuk mencegah file sensitif atau file sampah terunggah ke repositori
+![Tampilan Struktur Folder]()
 
 ## 🚀 Langkah Deployment
 1. **Persiapan Kode**: Pastikan file index.html, about.html, dan style.css sudah siap di folder proyek.
