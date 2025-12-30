@@ -1,4 +1,14 @@
 # Web Deployment - LKS Cloud Computing 2026
+## Struktur Folder
+/lks-cloud-nopeserta
+├── index.html        (Halaman utama aplikasi)
+├── about.html        (Halaman informasi pembuat)
+├── /css
+│   └── style.css     (File desain tampilan)
+├── /assets
+│   └── logo.png      (Gambar atau aset pendukung)
+├── .gitignore        (File untuk mengecualikan file sensitif)
+└── README.md         (Dokumentasi proyek)
 
 ## 📝 Deskripsi Proyek
 Aplikasi ini adalah sebuah website aplikasi statis yang dibangun untuk memenuhi kualifikasi LKS SMK Ma'arif NU Jatim 2026. Proyek ini mendemostrasikan integrasi CI/CD menggunakan GitHub sebagai version Control dan Vercel sebagai Platform-as-a-Service (Paas) 
