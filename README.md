@@ -12,17 +12,7 @@ Aplikasi ini adalah sebuah website aplikasi statis yang dibangun untuk memenuhi 
 ## 📂 Struktur Folder
 Penyusunan file dilakukan secara terorganisir untuk memenuhi standar kualifikasi lomba:
 
-/lks-cloud-672
-├── /css
-│   └── style.css
-├── /assets
-│   ├── image.png
-│   ├── image-1.png
-│   └── image-2.png
-├── index.html
-├── about.html
-├── .gitignore
-└── README.md
+* **/lks-cloud-672**: Ini adalah folder utama yang berisi folder /css yang berisi file style.css yang berfungsi untuk membuat tampilan website terlihat bagus, folder /assets yang berisi tampilan website. Ada juga 4 file yaitu index.html yang berisi halaman utama website, about.html yang berisi halaman identitas peserta, README.md yang berisi dokumentasi proyek, dan juga file .gitignore yang berfungsi untuk mencegah file sensitif atau file sampah terunggah ke repositori
 
 ## 🚀 Langkah Deployment
 1. **Persiapan Kode**: Pastikan file index.html, about.html, dan style.css sudah siap di folder proyek.
@@ -46,8 +36,8 @@ Berikut adalah tampilan antarmuka dari web App LKS Cloud Computing 2026:
 *Halaman Identitas peserta LKS dan juga deskripsi proyek deployment.*
 
 ## 🔗 Tautan Penting 
-* ** Link Repository**: (https://github.com/ptrdanang/lks-cloud-672.git)
-* ** Link Web**: (https://lks-cloud-672.vercel.app/)
+* **Link Repository**: (https://github.com/ptrdanang/lks-cloud-672.git)
+* **Link Web**: (https://lks-cloud-672.vercel.app/)
 
 ## ✍ Kendala dan Sousi
 1. **Navigasi Error**:
