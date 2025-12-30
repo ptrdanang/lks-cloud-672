@@ -20,15 +20,14 @@ Aplikasi ini adalah sebuah website aplikasi statis yang dibangun untuk memenuhi 
 Berikut adalah tampilan antarmuka dari web App LKS Cloud Computing 2026:
 
 ## Beranda 
-![alt text](image.png)
+![Tampilan Halaman Utama](assets/image.png)
 *Menampilkan hero section, Pengertian Cloud Computing, dan model layanan (Iaas, Paas, dan Saas).*
 
 ## Fitur API Dinamis 
-![alt text](image-1.png)
-*Menampilkan hasil pengmabilan data secara realtime dari API Publik.*
+![Tampilan Fitur API](assets/image-1.png)
 
 ## Identitas Peserta
-![alt text](image-2.png)
+![Tampilan Halaman Identitas](assets/image-2.png)
 *Halaman Identitas peserta LKS dan juga deskripsi proyek deployment.*
 
 ## 🔗 Tautan Penting 
