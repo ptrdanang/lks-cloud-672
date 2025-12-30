@@ -10,19 +10,20 @@ Aplikasi ini adalah sebuah website aplikasi statis yang dibangun untuk memenuhi 
 * **Responsive Design**: Tampilan yang optimal di berbagai perangkat.
 
 ## 📂 Struktur Folder
-Penyusunan file dilakukan secara terorganisir untuk memenuhi standar kualifikasi lomba:
+Penyusunan file dilakukan secara terorganisir untuk memenuhi standar kualifikasi lomba: 
 
+```text
 /lks-cloud-672
-├── /css              (Folder khusus stylesheet)
-│   └── style.css     (File desain tampilan utama)
-├── /assets           (Folder khusus media/gambar)
-│   ├── image.png     (Screenshot Beranda)
-│   ├── image-1.png   (Screenshot Fitur API)
-│   └── image-2.png   (Screenshot Halaman About)
-├── index.html        (Halaman utama/beranda aplikasi)
-├── about.html        (Halaman identitas pembuat)
-├── .gitignore        (Keamanan dasar untuk mengecualikan file sensitif)
-└── README.md         (Dokumentasi teknis proyek)
+├── /css              (Folder khusus stylesheet) 
+│   └── style.css     (File desain tampilan utama) [cite: 30]
+├── /assets           (Folder khusus media/gambar) 
+│   ├── image.png     (Screenshot Beranda) [cite: 62]
+│   ├── image-1.png   (Screenshot Fitur API) [cite: 62]
+│   └── image-2.png   (Screenshot Halaman About) [cite: 62]
+├── index.html        (Halaman utama/beranda aplikasi) [cite: 28]
+├── about.html        (Halaman identitas pembuat) [cite: 29]
+├── .gitignore        (Keamanan dasar) [cite: 55]
+└── README.md         (Dokumentasi teknis proyek) [cite: 40]
 
 ## 🚀 Langkah Deployment
 1. **Persiapan Kode**: Pastikan file index.html, about.html, dan style.css sudah siap di folder proyek.
