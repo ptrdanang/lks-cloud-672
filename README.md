@@ -6,7 +6,7 @@ Aplikasi ini adalah sebuah website aplikasi statis yang dibangun untuk memenuhi 
 **Fitur Utama:**
 * **Kontent Edukasi**: Penjelasan mengenai Cloud Computing (Iaas, Paas, dan Saas).
 * **Fitur Dinamis**: Mengambil data secara asinkron dari API Publik (JSONPlaceholder).
-* **Loggging System**: Pemantauan status aplikasi melalaui browser console.
+* **Logging System**: Pemantauan status aplikasi melalaui browser console.
 * **Responsive Design**: Tampilan yang optimal di berbagai perangkat.
 
 ## 📂 Struktur Folder
@@ -38,7 +38,7 @@ Berikut adalah tampilan antarmuka dari web App LKS Cloud Computing 2026:
 * **Link Repository**: (https://github.com/ptrdanang/lks-cloud-672.git)
 * **Link Web**: (https://lks-cloud-672.vercel.app/)
 
-## ✍ Kendala dan Sousi
+## ✍ Kendala dan Solusi
 1. **Navigasi Error**:
 
    **Kendala**: Menu "Identitas Peserta" tidak bisa diklik atau File Not Found.
