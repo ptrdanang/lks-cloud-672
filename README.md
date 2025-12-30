@@ -29,7 +29,7 @@ Berikut adalah tampilan antarmuka dari web App LKS Cloud Computing 2026:
 
 ## Identitas Peserta
 ![alt text](image-2.png)
-*Halaman Identitas peserta LKS dan juga deskripsi proyek deployment
+*Halaman Identitas peserta LKS dan juga deskripsi proyek deployment.*
 
 ## 🔗 Tautan Penting 
 * ** Link Repository**: (https://github.com/ptrdanang/lks-cloud-672.git)
